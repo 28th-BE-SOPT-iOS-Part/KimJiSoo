@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  MainTabBarController.swift
 //  First Assignment
 //
 //  Created by 김지수 on 2021/04/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

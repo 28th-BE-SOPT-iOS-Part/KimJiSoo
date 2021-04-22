@@ -21,48 +21,24 @@ class ViewController: UIViewController {
     }
     
     
-    func Alert(title: String) {
-            DispatchQueue.main.async {
-                let controller = UIAlertController(title: title, message: nil, preferredStyle: .alert)
-                let cancelAction = UIAlertAction(title: "닫기", style: .cancel) { (action) in
-                }
-                
-                controller.addAction(cancelAction)
-                self.present(controller, animated: true, completion: nil)
-            }
-        }
-    
-  
+//로그인 하기
     @IBAction func loginButtonClicked(_ sender: Any) {
         
         
-    
-        guard let nextVC = self.storyboard?.instantiateViewController(identifier:"SecondViewController")as? SecondViewController else {return}
-        
-        nextVC.message = emailTextField.text
-        
-        let email = emailTextField.text
-        if email?.isEmpty ?? true {
-                Alert(title: "이메일을 입력하세요")
-                return;
-        }
-        
-        let pw = PasswordTextField.text
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                
+        guard let mainVC = storyboard.instantiateViewController(identifier: "MainTabBarController") as? MainTabBarController
+        else {return}
+                
+        self.navigationController?.pushViewController(mainVC, animated: true)
        
-        if pw?.isEmpty ?? true {
-                Alert(title: "비밀번호를 입력하세요")
-                return;
-        }
-        
-        nextVC.modalPresentationStyle = .automatic
-        nextVC.modalTransitionStyle = .coverVertical
-        
-        
-        self.present(nextVC, animated :true, completion: nil)
     }
     
     
+//    새로운 계정 가입하기
     @IBAction func signupButtonClicked(_ sender: Any) {
+        
+    
         guard let nextVC = self.storyboard?.instantiateViewController(identifier:"FirstViewController")as? FirstViewController else {return}
         
         self.navigationController?.pushViewController(nextVC, animated: true)
