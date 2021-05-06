@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "friendtabProfileImg.jpg"
+      "filename" : "profileImage4.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "friendtabProfileImg@2x.jpg",
+      "filename" : "profileImage4@2x.png",
       "scale" : "2x"
     },
     {
+      "scale" : "3x",
       "idiom" : "universal",
-      "filename" : "friendtabProfileImg@3x.jpg",
-      "scale" : "3x"
+      "filename" : "profileImage4@3x.png"
     }
   ],
   "info" : {

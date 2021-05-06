@@ -8,10 +8,39 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    
+    
+    @IBOutlet weak var iconImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var stateLabel: UILabel!
+    
+    
+    
+    
+    
+    var name : String = ""
+    var image : String = ""
+    var state : String = ""
 
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+        self.nameLabel.text = name
+        self.stateLabel.text = state
+        
+        // 이미지 받아오기
+        // 이미지가 있으면 받아온 이미지, 없으면 기본이미지로
+        if let image = UIImage(named: image) {
+            self.iconImageView.image = image
+        } else {
+            self.iconImageView.image = UIImage(named: "profileUserImg")
+        }
+
+    
+      
+        
+        
 //       SwipeDown 선언
         let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture(_:)))
                 swipeDown.direction = UISwipeGestureRecognizer.Direction.down
@@ -48,4 +77,5 @@ class ProfileViewController: UIViewController {
     
 
     }
+
 

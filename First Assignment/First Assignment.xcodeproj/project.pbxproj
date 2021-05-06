@@ -23,6 +23,12 @@
 		E835F22A26185C3A00695567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E835F22826185C3A00695567 /* LaunchScreen.storyboard */; };
 		E835F23326185CCC00695567 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F23226185CCC00695567 /* FirstViewController.swift */; };
 		E8AE98002631BAE0000EF6C9 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE97FF2631BAE0000EF6C9 /* FirstTabViewController.swift */; };
+		E8BEC92F264485EA00C69D57 /* FifthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BEC92E264485EA00C69D57 /* FifthTabViewController.swift */; };
+		E8BEC9322644864800C69D57 /* FifthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BEC9312644864800C69D57 /* FifthCollectionViewCell.swift */; };
+		E8BEC9352644910A00C69D57 /* FifthTabDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BEC9342644910A00C69D57 /* FifthTabDataModel.swift */; };
+		E8CFB809263BD0730012DF24 /* SoptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFB808263BD0730012DF24 /* SoptTableViewCell.swift */; };
+		E8CFB80C263BD08F0012DF24 /* SoptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFB80B263BD08F0012DF24 /* SoptViewController.swift */; };
+		E8CFB80F263BD2FB0012DF24 /* ServiceListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFB80E263BD2FB0012DF24 /* ServiceListDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		E835F22B26185C3A00695567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E835F23226185CCC00695567 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E8AE97FF2631BAE0000EF6C9 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		E8BEC92E264485EA00C69D57 /* FifthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthTabViewController.swift; sourceTree = "<group>"; };
+		E8BEC9312644864800C69D57 /* FifthCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthCollectionViewCell.swift; sourceTree = "<group>"; };
+		E8BEC9342644910A00C69D57 /* FifthTabDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthTabDataModel.swift; sourceTree = "<group>"; };
+		E8CFB808263BD0730012DF24 /* SoptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptTableViewCell.swift; sourceTree = "<group>"; };
+		E8CFB80B263BD08F0012DF24 /* SoptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptViewController.swift; sourceTree = "<group>"; };
+		E8CFB80E263BD2FB0012DF24 /* ServiceListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +94,17 @@
 				E835F22326185C3900695567 /* Main.storyboard */,
 				E82F0EA42631A80300598C55 /* MainTabBarController.swift */,
 				E82F0EA02631A59700598C55 /* 1TabStoryboard.storyboard */,
+				E8CFB80B263BD08F0012DF24 /* SoptViewController.swift */,
+				E8CFB808263BD0730012DF24 /* SoptTableViewCell.swift */,
 				E830D1B52631BC4F002661F2 /* ProfileViewController.swift */,
+				E8CFB80E263BD2FB0012DF24 /* ServiceListDataModel.swift */,
 				E82F0E932631A57400598C55 /* 2TabStoryboard.storyboard */,
 				E82F0E962631A57F00598C55 /* 3TabStoryboard.storyboard */,
 				E82F0E992631A58500598C55 /* 4TabStoryboard.storyboard */,
 				E82F0E9C2631A58C00598C55 /* 5TabStoryboard.storyboard */,
+				E8BEC9312644864800C69D57 /* FifthCollectionViewCell.swift */,
+				E8BEC92E264485EA00C69D57 /* FifthTabViewController.swift */,
+				E8BEC9342644910A00C69D57 /* FifthTabDataModel.swift */,
 				E8AE97FF2631BAE0000EF6C9 /* FirstTabViewController.swift */,
 				E835F23226185CCC00695567 /* FirstViewController.swift */,
 				E82F0E8C26319BA600598C55 /* SecondViewController.swift */,
@@ -173,10 +191,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E835F22226185C3900695567 /* ViewController.swift in Sources */,
+				E8CFB80F263BD2FB0012DF24 /* ServiceListDataModel.swift in Sources */,
+				E8BEC92F264485EA00C69D57 /* FifthTabViewController.swift in Sources */,
 				E835F21E26185C3900695567 /* AppDelegate.swift in Sources */,
+				E8CFB809263BD0730012DF24 /* SoptTableViewCell.swift in Sources */,
 				E82F0EA52631A80300598C55 /* MainTabBarController.swift in Sources */,
+				E8BEC9322644864800C69D57 /* FifthCollectionViewCell.swift in Sources */,
+				E8BEC9352644910A00C69D57 /* FifthTabDataModel.swift in Sources */,
 				E835F22026185C3900695567 /* SceneDelegate.swift in Sources */,
 				E82F0E8D26319BA600598C55 /* SecondViewController.swift in Sources */,
+				E8CFB80C263BD08F0012DF24 /* SoptViewController.swift in Sources */,
 				E8AE98002631BAE0000EF6C9 /* FirstTabViewController.swift in Sources */,
 				E830D1B62631BC4F002661F2 /* ProfileViewController.swift in Sources */,
 				E835F23326185CCC00695567 /* FirstViewController.swift in Sources */,
