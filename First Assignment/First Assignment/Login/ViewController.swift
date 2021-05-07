@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @IBAction func loginButtonClicked(_ sender: Any) {
         
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: "TabStoryboard", bundle: nil)
                 
         guard let mainVC = storyboard.instantiateViewController(identifier: "MainTabBarController") as? MainTabBarController
         else {return}

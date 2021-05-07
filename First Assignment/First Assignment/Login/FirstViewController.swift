@@ -65,8 +65,8 @@ class FirstViewController: UIViewController {
                     return
                 }
         
-//        탭바컨트롤러로 push 하기
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//      탭바 컨트롤러로 push 하기
+        let storyboard = UIStoryboard(name: "TabStoryboard", bundle: nil)
                 
         guard let mainVC = storyboard.instantiateViewController(identifier: "MainTabBarController") as? MainTabBarController
         else {return}

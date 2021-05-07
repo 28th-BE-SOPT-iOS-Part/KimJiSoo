@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E82F0E8D26319BA600598C55 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82F0E8C26319BA600598C55 /* SecondViewController.swift */; };
 		E82F0E942631A57400598C55 /* 2TabStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82F0E932631A57400598C55 /* 2TabStoryboard.storyboard */; };
 		E82F0E972631A57F00598C55 /* 3TabStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82F0E962631A57F00598C55 /* 3TabStoryboard.storyboard */; };
 		E82F0E9A2631A58500598C55 /* 4TabStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82F0E992631A58500598C55 /* 4TabStoryboard.storyboard */; };
@@ -22,17 +21,17 @@
 		E835F22726185C3A00695567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E835F22626185C3A00695567 /* Assets.xcassets */; };
 		E835F22A26185C3A00695567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E835F22826185C3A00695567 /* LaunchScreen.storyboard */; };
 		E835F23326185CCC00695567 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F23226185CCC00695567 /* FirstViewController.swift */; };
-		E8AE98002631BAE0000EF6C9 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE97FF2631BAE0000EF6C9 /* FirstTabViewController.swift */; };
 		E8BEC92F264485EA00C69D57 /* FifthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BEC92E264485EA00C69D57 /* FifthTabViewController.swift */; };
 		E8BEC9322644864800C69D57 /* FifthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BEC9312644864800C69D57 /* FifthCollectionViewCell.swift */; };
 		E8BEC9352644910A00C69D57 /* FifthTabDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BEC9342644910A00C69D57 /* FifthTabDataModel.swift */; };
+		E8BEC93826452D7300C69D57 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BEC93726452D7300C69D57 /* Profile.storyboard */; };
+		E8BEC93B2645334400C69D57 /* TabStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BEC93A2645334400C69D57 /* TabStoryboard.storyboard */; };
 		E8CFB809263BD0730012DF24 /* SoptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFB808263BD0730012DF24 /* SoptTableViewCell.swift */; };
 		E8CFB80C263BD08F0012DF24 /* SoptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFB80B263BD08F0012DF24 /* SoptViewController.swift */; };
 		E8CFB80F263BD2FB0012DF24 /* ServiceListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFB80E263BD2FB0012DF24 /* ServiceListDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E82F0E8C26319BA600598C55 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E82F0E932631A57400598C55 /* 2TabStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = 2TabStoryboard.storyboard; sourceTree = "<group>"; };
 		E82F0E962631A57F00598C55 /* 3TabStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = 3TabStoryboard.storyboard; sourceTree = "<group>"; };
 		E82F0E992631A58500598C55 /* 4TabStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = 4TabStoryboard.storyboard; sourceTree = "<group>"; };
@@ -49,10 +48,11 @@
 		E835F22926185C3A00695567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E835F22B26185C3A00695567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E835F23226185CCC00695567 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E8AE97FF2631BAE0000EF6C9 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
 		E8BEC92E264485EA00C69D57 /* FifthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthTabViewController.swift; sourceTree = "<group>"; };
 		E8BEC9312644864800C69D57 /* FifthCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthCollectionViewCell.swift; sourceTree = "<group>"; };
 		E8BEC9342644910A00C69D57 /* FifthTabDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthTabDataModel.swift; sourceTree = "<group>"; };
+		E8BEC93726452D7300C69D57 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		E8BEC93A2645334400C69D57 /* TabStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabStoryboard.storyboard; sourceTree = "<group>"; };
 		E8CFB808263BD0730012DF24 /* SoptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptTableViewCell.swift; sourceTree = "<group>"; };
 		E8CFB80B263BD08F0012DF24 /* SoptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptViewController.swift; sourceTree = "<group>"; };
 		E8CFB80E263BD2FB0012DF24 /* ServiceListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListDataModel.swift; sourceTree = "<group>"; };
@@ -90,29 +90,69 @@
 			children = (
 				E835F21D26185C3900695567 /* AppDelegate.swift */,
 				E835F21F26185C3900695567 /* SceneDelegate.swift */,
-				E835F22126185C3900695567 /* ViewController.swift */,
-				E835F22326185C3900695567 /* Main.storyboard */,
-				E82F0EA42631A80300598C55 /* MainTabBarController.swift */,
-				E82F0EA02631A59700598C55 /* 1TabStoryboard.storyboard */,
-				E8CFB80B263BD08F0012DF24 /* SoptViewController.swift */,
-				E8CFB808263BD0730012DF24 /* SoptTableViewCell.swift */,
-				E830D1B52631BC4F002661F2 /* ProfileViewController.swift */,
-				E8CFB80E263BD2FB0012DF24 /* ServiceListDataModel.swift */,
-				E82F0E932631A57400598C55 /* 2TabStoryboard.storyboard */,
-				E82F0E962631A57F00598C55 /* 3TabStoryboard.storyboard */,
-				E82F0E992631A58500598C55 /* 4TabStoryboard.storyboard */,
-				E82F0E9C2631A58C00598C55 /* 5TabStoryboard.storyboard */,
-				E8BEC9312644864800C69D57 /* FifthCollectionViewCell.swift */,
-				E8BEC92E264485EA00C69D57 /* FifthTabViewController.swift */,
-				E8BEC9342644910A00C69D57 /* FifthTabDataModel.swift */,
-				E8AE97FF2631BAE0000EF6C9 /* FirstTabViewController.swift */,
-				E835F23226185CCC00695567 /* FirstViewController.swift */,
-				E82F0E8C26319BA600598C55 /* SecondViewController.swift */,
+				E8BEC93F2645347B00C69D57 /* Login */,
+				E8BEC9422645354100C69D57 /* TabBar */,
 				E835F22626185C3A00695567 /* Assets.xcassets */,
 				E835F22826185C3A00695567 /* LaunchScreen.storyboard */,
 				E835F22B26185C3A00695567 /* Info.plist */,
 			);
 			path = "First Assignment";
+			sourceTree = "<group>";
+		};
+		E8BEC93F2645347B00C69D57 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E835F23226185CCC00695567 /* FirstViewController.swift */,
+				E835F22126185C3900695567 /* ViewController.swift */,
+				E835F22326185C3900695567 /* Main.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E8BEC9422645354100C69D57 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E8BEC93A2645334400C69D57 /* TabStoryboard.storyboard */,
+				E82F0EA42631A80300598C55 /* MainTabBarController.swift */,
+				E8BEC9462645358200C69D57 /* ElseTab */,
+				E8BEC9432645356700C69D57 /* FirstTab */,
+				E8BEC9452645357B00C69D57 /* FifthTab */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E8BEC9432645356700C69D57 /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				E82F0EA02631A59700598C55 /* 1TabStoryboard.storyboard */,
+				E8CFB808263BD0730012DF24 /* SoptTableViewCell.swift */,
+				E8CFB80B263BD08F0012DF24 /* SoptViewController.swift */,
+				E8CFB80E263BD2FB0012DF24 /* ServiceListDataModel.swift */,
+				E8BEC93726452D7300C69D57 /* Profile.storyboard */,
+				E830D1B52631BC4F002661F2 /* ProfileViewController.swift */,
+			);
+			path = FirstTab;
+			sourceTree = "<group>";
+		};
+		E8BEC9452645357B00C69D57 /* FifthTab */ = {
+			isa = PBXGroup;
+			children = (
+				E82F0E9C2631A58C00598C55 /* 5TabStoryboard.storyboard */,
+				E8BEC9312644864800C69D57 /* FifthCollectionViewCell.swift */,
+				E8BEC92E264485EA00C69D57 /* FifthTabViewController.swift */,
+				E8BEC9342644910A00C69D57 /* FifthTabDataModel.swift */,
+			);
+			path = FifthTab;
+			sourceTree = "<group>";
+		};
+		E8BEC9462645358200C69D57 /* ElseTab */ = {
+			isa = PBXGroup;
+			children = (
+				E82F0E932631A57400598C55 /* 2TabStoryboard.storyboard */,
+				E82F0E962631A57F00598C55 /* 3TabStoryboard.storyboard */,
+				E82F0E992631A58500598C55 /* 4TabStoryboard.storyboard */,
+			);
+			path = ElseTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,11 +213,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E835F22A26185C3A00695567 /* LaunchScreen.storyboard in Resources */,
+				E8BEC93B2645334400C69D57 /* TabStoryboard.storyboard in Resources */,
 				E82F0EA12631A59700598C55 /* 1TabStoryboard.storyboard in Resources */,
 				E82F0E9A2631A58500598C55 /* 4TabStoryboard.storyboard in Resources */,
 				E82F0E942631A57400598C55 /* 2TabStoryboard.storyboard in Resources */,
 				E835F22726185C3A00695567 /* Assets.xcassets in Resources */,
 				E82F0E9D2631A58C00598C55 /* 5TabStoryboard.storyboard in Resources */,
+				E8BEC93826452D7300C69D57 /* Profile.storyboard in Resources */,
 				E835F22526185C3900695567 /* Main.storyboard in Resources */,
 				E82F0E972631A57F00598C55 /* 3TabStoryboard.storyboard in Resources */,
 			);
@@ -199,9 +241,7 @@
 				E8BEC9322644864800C69D57 /* FifthCollectionViewCell.swift in Sources */,
 				E8BEC9352644910A00C69D57 /* FifthTabDataModel.swift in Sources */,
 				E835F22026185C3900695567 /* SceneDelegate.swift in Sources */,
-				E82F0E8D26319BA600598C55 /* SecondViewController.swift in Sources */,
 				E8CFB80C263BD08F0012DF24 /* SoptViewController.swift in Sources */,
-				E8AE98002631BAE0000EF6C9 /* FirstTabViewController.swift in Sources */,
 				E830D1B62631BC4F002661F2 /* ProfileViewController.swift in Sources */,
 				E835F23326185CCC00695567 /* FirstViewController.swift in Sources */,
 			);

@@ -15,13 +15,11 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var stateLabel: UILabel!
     
     
-    
-    
-    
     var name : String = ""
     var image : String = ""
     var state : String = ""
 
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -29,8 +27,8 @@ class ProfileViewController: UIViewController {
         self.nameLabel.text = name
         self.stateLabel.text = state
         
-        // 이미지 받아오기
-        // 이미지가 있으면 받아온 이미지, 없으면 기본이미지로
+       
+        // 이미지가 존재하면 받아온 이미지로, 없으면 기본이미지로 보여주기
         if let image = UIImage(named: image) {
             self.iconImageView.image = image
         } else {
@@ -41,16 +39,16 @@ class ProfileViewController: UIViewController {
       
         
         
-//       SwipeDown 선언
+//      SwipeDown 선언
         let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture(_:)))
                 swipeDown.direction = UISwipeGestureRecognizer.Direction.down
                 self.view.addGestureRecognizer(swipeDown)
 
-        // Do any additional setup after loading the view.
+        
     }
 //    swipe 해서 dismiss 하기
     
-    func swipeRecognizer() {
+        func swipeRecognizer() {
             let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture(_:)))
             swipeDown.direction = UISwipeGestureRecognizer.Direction.down
             self.view.addGestureRecognizer(swipeDown)
@@ -75,7 +73,7 @@ class ProfileViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-
-    }
+    
+}
 
 

@@ -25,19 +25,23 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settingIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ubB-nV-7Co">
-                                        <rect key="frame" x="380" y="17" width="19" height="19"/>
-                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZqJ-bI-xtp">
+                                        <rect key="frame" x="379" y="15" width="19" height="20"/>
+                                        <state key="normal" image="settingIcon"/>
+                                        <connections>
+                                            <action selector="actionsheetButton:" destination="LTi-Kw-5hV" eventType="touchUpInside" id="hzz-ph-rcG"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="26c-Y6-xeM"/>
                                     <constraint firstItem="UyJ-P5-VeA" firstAttribute="top" secondItem="ZHI-EZ-6K1" secondAttribute="top" constant="15" id="8a9-6F-V31"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZqJ-bI-xtp" secondAttribute="trailing" constant="16" id="B4i-3y-rxE"/>
                                     <constraint firstAttribute="bottom" secondItem="UyJ-P5-VeA" secondAttribute="bottom" constant="16" id="FNz-IK-je0"/>
-                                    <constraint firstItem="ubB-nV-7Co" firstAttribute="top" secondItem="ZHI-EZ-6K1" secondAttribute="top" constant="17" id="L9k-Dd-ona"/>
                                     <constraint firstItem="UyJ-P5-VeA" firstAttribute="leading" secondItem="ZHI-EZ-6K1" secondAttribute="leading" constant="14" id="LCv-gM-LKq"/>
-                                    <constraint firstAttribute="bottom" secondItem="ubB-nV-7Co" secondAttribute="bottom" constant="16" id="Q5p-V8-Rio"/>
-                                    <constraint firstAttribute="trailing" secondItem="ubB-nV-7Co" secondAttribute="trailing" constant="15" id="tXN-kZ-bV2"/>
+                                    <constraint firstItem="ZqJ-bI-xtp" firstAttribute="top" secondItem="ZHI-EZ-6K1" secondAttribute="top" constant="15" id="hxg-gE-cT2"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZqJ-bI-xtp" secondAttribute="bottom" constant="17" id="kjL-U4-Sub"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XaG-Cn-iDl">
@@ -160,6 +164,7 @@
         <!--Profile View Controller-->
         <scene sceneID="7jy-V3-0So">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7AI-7t-Rbj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ProfileViewController" id="tTF-xr-Xe6" customClass="ProfileViewController" customModule="First_Assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9UL-BI-AGh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -311,7 +316,6 @@
                         <outlet property="stateLabel" destination="eqp-2W-SFk" id="0h9-wv-raA"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7AI-7t-Rbj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="714.49275362318849" y="81.696428571428569"/>
         </scene>
