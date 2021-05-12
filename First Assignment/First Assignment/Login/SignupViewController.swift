@@ -1,5 +1,5 @@
 //
-//  MainTabBarController.swift
+//  SignupViewController.swift
 //  First Assignment
 //
 //  Created by 김지수 on 2021/05/13.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTabBarController: UITabBarController {
+class SignupViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
