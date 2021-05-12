@@ -21,7 +21,7 @@ class FirstViewController: UIViewController {
         
     }
     
-//알림 보내기
+
     func Alert(title: String) {
             DispatchQueue.main.async {
                 let controller = UIAlertController(title: title, message: nil, preferredStyle: .alert)
@@ -34,9 +34,11 @@ class FirstViewController: UIViewController {
         }
 
 
-//   새로운 계정 만들기
+
     
     @IBAction func MakeAccountButtonClicked(_ sender: Any) {
+
+//request Alert 보내기
         
         if self.emailTextField.hasText && self.PasswordTextField.hasText && self.PasswordCheckTextField.hasText {
         
@@ -72,6 +74,7 @@ class FirstViewController: UIViewController {
             
         }
     }
+//    signupAction
     
             func signupAction()
             {
@@ -84,7 +87,7 @@ class FirstViewController: UIViewController {
                             self.makeAlert(title: "알림",
                                            message: message,
                                            okAction: {_ in
-                                            
+//                                            회원가입 성공시 확인 누르면 탭바 화면으로 넘어가게 연결
                                             let storyboard = UIStoryboard(name: "TabStoryboard", bundle: nil)
                                             guard let mainVC =
                                                     storyboard.instantiateViewController(identifier: "MainTabBarController") as? MainTabBarController else {return}
@@ -102,13 +105,6 @@ class FirstViewController: UIViewController {
             }
             
         }
-//      탭바 컨트롤러로 push 하기
-//        let storyboard = UIStoryboard(name: "TabStoryboard", bundle: nil)
-//
-//        guard let mainVC = storyboard.instantiateViewController(identifier: "TabBarController") as? TabBarController
-//        else {return}
-//
-//        self.navigationController?.pushViewController(mainVC, animated: true)
-    
+
     
 
